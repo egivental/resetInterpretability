@@ -1,0 +1,17 @@
+Data Set Predicting: Benign
+Using Features:
+	ClumpThickness: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	UniformityOfCellSize: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	UniformityOfCellShape: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	MarginalAdhesion: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	SingleEpithelialCellSize: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	BareNuclei: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	BlandChromatin: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	NormalNucleoli: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	Mitoses: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0}
+
+model: [['BareNuclei_1.0_neg', 'BareNuclei_2.0_neg', 'SingleEpithelialCellSize_2.0_neg'], ['UniformityOfCellSize_1.0_neg', 'UniformityOfCellSize_2.0_neg', 'UniformityOfCellSize_3.0_neg'], ['MarginalAdhesion_8.0_neg', 'ClumpThickness_10.0'], ['NormalNucleoli_1.0_neg', 'MarginalAdhesion_4.0']]
+
+Training Accuracy: (0.9725274725274725, 'TP: 190 TN: 341 FP: 14 FN: 1')
+
+Testing Accuracy: (0.927007299270073, 'TP: 46 TN: 81 FP: 8 FN: 2')

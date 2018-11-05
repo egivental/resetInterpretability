@@ -1,0 +1,20 @@
+Data Set Predicting: "NotBankrupt"
+Using Features:
+	IndustrialRisk: {0.0, 1.0, -1.0}
+	ManagementRisk: {0.0, 1.0, -1.0}
+	FinancialFlexibilityRisk: {0.0, 1.0, -1.0}
+	CredibilityRisk: {0.0, 1.0, -1.0}
+	CompetitiveRisk: {0.0, 1.0, -1.0}
+	OperatingRisk: {0.0, 1.0, -1.0}
+
+model:
+if ({"CompetitiveRisk":-1.0}) then ({"NotBankrupt":0.0})
+else if ({"ManagementRisk":0.0}) then ({"NotBankrupt":1.0})
+else if ({"OperatingRisk":1.0}) then ({"NotBankrupt":1.0})
+else if ({"CredibilityRisk":-1.0}) then ({"NotBankrupt":0.0})
+else ({"NotBankrupt":1.0})
+
+
+Training Accuracy: (1.0, 'TP: 112 TN: 88 FP: 0 FN: 0')
+
+Testing Accuracy: (1.0, 'TP: 31 TN: 19 FP: 0 FN: 0')

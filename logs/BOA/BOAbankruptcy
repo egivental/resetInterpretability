@@ -1,0 +1,14 @@
+Data Set Predicting: NotBankrupt
+Using Features:
+	IndustrialRisk: {0.0, 1.0, -1.0}
+	ManagementRisk: {0.0, 1.0, -1.0}
+	FinancialFlexibilityRisk: {0.0, 1.0, -1.0}
+	CredibilityRisk: {0.0, 1.0, -1.0}
+	CompetitiveRisk: {0.0, 1.0, -1.0}
+	OperatingRisk: {0.0, 1.0, -1.0}
+
+model: [['CompetitiveRisk_-1.0_neg']]
+
+Training Accuracy: (0.995, 'TP: 112 TN: 87 FP: 1 FN: 0')
+
+Testing Accuracy: (0.94, 'TP: 31 TN: 16 FP: 3 FN: 0')

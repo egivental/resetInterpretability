@@ -1,0 +1,26 @@
+Data Set Predicting: "Malignant"
+Using Features:
+	RoundShape: {0.0, 1.0}
+	OvalShape: {0.0, 1.0}
+	LobularShape: {0.0, 1.0}
+	IrregularShape: {0.0, 1.0}
+	CircumscribedMargin: {0.0, 1.0}
+	MicrolobulatedMargin: {0.0, 1.0}
+	ObscuredMargin: {0.0, 1.0}
+	IllDefinedMargin: {0.0, 1.0}
+	SpiculatedMargin: {0.0, 1.0}
+	Density: {1.0, 2.0, 3.0, 4.0}
+	Age_lt_30: {0.0, 1.0}
+	Age_geq_30: {0.0, 1.0}
+	Age_geq_45: {0.0, 1.0}
+	Age_geq_60: {0.0, 1.0}
+
+model:
+if ({"RoundShape":1.0,"Density":2.0}) then ({"Malignant":0.0})
+else if ({"OvalShape":0.0,"CircumscribedMargin":0.0}) then ({"Malignant":1.0})
+else ({"Malignant":0.0})
+
+
+Training Accuracy: (0.8046875, 'TP: 318 TN: 300 FP: 96 FN: 54')
+
+Testing Accuracy: (0.7461139896373057, 'TP: 63 TN: 81 FP: 39 FN: 10')

@@ -1,0 +1,24 @@
+Data Set Predicting: "NotBankrupt"
+Using Features:
+	"IndustrialRisk": {0.0, 1.0, -1.0}
+	"ManagementRisk": {0.0, 1.0, -1.0}
+	"FinancialFlexibilityRisk": {0.0, 1.0, -1.0}
+	"CredibilityRisk": {0.0, 1.0, -1.0}
+	"CompetitiveRisk": {0.0, 1.0, -1.0}
+	"OperatingRisk": {0.0, 1.0, -1.0}
+
+model:
++-------------------------------+------------------+-----------+
+| PREDICT O IF SCORE >= -4      |                  |           |
+| ============================= | ================ | ========= |
+| "CredibilityRisk"             |         5 points |   + ..... |
+| "CompetitiveRisk"             |         5 points |   + ..... |
+| "IndustrialRisk"              |         3 points |   + ..... |
+| "FinancialFlexibilityRisk"    |         3 points |   + ..... |
+| ============================= | ================ | ========= |
+| ADD POINTS FROM ROWS 1 to 4   |            SCORE |   = ..... |
++-------------------------------+------------------+-----------+
+
+Training Accuracy: (1.0, 'TP: 112 TN: 88 FP: 0 FN: 0')
+
+Testing Accuracy: (1.0, 'TP: 31 TN: 19 FP: 0 FN: 0')

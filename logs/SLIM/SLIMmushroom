@@ -1,0 +1,237 @@
+Data Set Predicting: "poisonous"
+Using Features:
+	"cap_shape_eq_convex": {0.0, 1.0}
+	"cap_shape_eq_bell": {0.0, 1.0}
+	"cap_shape_eq_sunken": {0.0, 1.0}
+	"cap_shape_eq_flat": {0.0, 1.0}
+	"cap_shape_eq_knobbed": {0.0, 1.0}
+	"cap_shape_eq_conical": {0.0, 1.0}
+	"cap_surface_eq_smooth": {0.0, 1.0}
+	"cap_surface_eq_scaly": {0.0, 1.0}
+	"cap_surface_eq_fibrous": {0.0, 1.0}
+	"cap_surface_eq_grooves": {0.0, 1.0}
+	"cap_color_eq_brown": {0.0, 1.0}
+	"cap_color_eq_yellow": {0.0, 1.0}
+	"cap_color_eq_white": {0.0, 1.0}
+	"cap_color_eq_gray": {0.0, 1.0}
+	"cap_color_eq_red": {0.0, 1.0}
+	"cap_color_eq_pink": {0.0, 1.0}
+	"cap_color_eq_buff": {0.0, 1.0}
+	"cap_color_eq_purple": {0.0, 1.0}
+	"cap_color_eq_cinnamon": {0.0, 1.0}
+	"cap_color_eq_green": {0.0, 1.0}
+	"bruises_eq_TRUE": {0.0, 1.0}
+	"odor_eq_pungent": {0.0, 1.0}
+	"odor_eq_almond": {0.0, 1.0}
+	"odor_eq_anise": {0.0, 1.0}
+	"odor_eq_none": {0.0, 1.0}
+	"odor_eq_foul": {0.0, 1.0}
+	"odor_eq_creosote": {0.0, 1.0}
+	"odor_eq_fishy": {0.0, 1.0}
+	"odor_eq_spicy": {0.0, 1.0}
+	"odor_eq_musty": {0.0, 1.0}
+	"gill_attachment_eq_free": {0.0, 1.0}
+	"gill_attachment_eq_attached": {0.0, 1.0}
+	"gill_spacing_eq_close": {0.0, 1.0}
+	"gill_spacing_eq_crowded": {0.0, 1.0}
+	"gill_size_eq_narrow": {0.0, 1.0}
+	"gill_size_eq_broad": {0.0, 1.0}
+	"gill_color_eq_black": {0.0, 1.0}
+	"gill_color_eq_brown": {0.0, 1.0}
+	"gill_color_eq_gray": {0.0, 1.0}
+	"gill_color_eq_pink": {0.0, 1.0}
+	"gill_color_eq_white": {0.0, 1.0}
+	"gill_color_eq_chocolate": {0.0, 1.0}
+	"gill_color_eq_purple": {0.0, 1.0}
+	"gill_color_eq_red": {0.0, 1.0}
+	"gill_color_eq_buff": {0.0, 1.0}
+	"gill_color_eq_green": {0.0, 1.0}
+	"gill_color_eq_yellow": {0.0, 1.0}
+	"gill_color_eq_orange": {0.0, 1.0}
+	"stalk_shape_eq_elarging": {0.0, 1.0}
+	"stalk_shape_eq_tapering": {0.0, 1.0}
+	"stalk_root_eq_equal": {0.0, 1.0}
+	"stalk_root_eq_club": {0.0, 1.0}
+	"stalk_root_eq_bulbous": {0.0, 1.0}
+	"stalk_root_eq_rooted": {0.0, 1.0}
+	"stalk_surface_above_ring_eq_smooth": {0.0, 1.0}
+	"stalk_surface_above_ring_eq_fibrous": {0.0, 1.0}
+	"stalk_surface_above_ring_eq_grooves": {0.0, 1.0}
+	"stalk_surface_above_ring_eq_scaly": {0.0, 1.0}
+	"stalk_surface_below_ring_eq_smooth": {0.0, 1.0}
+	"stalk_surface_below_ring_eq_fibrous": {0.0, 1.0}
+	"stalk_surface_below_ring_eq_scaly": {0.0, 1.0}
+	"stalk_surface_below_ring_eq_grooves": {0.0, 1.0}
+	"stalk_color_above_ring_eq_white": {0.0, 1.0}
+	"stalk_color_above_ring_eq_gray": {0.0, 1.0}
+	"stalk_color_above_ring_eq_pink": {0.0, 1.0}
+	"stalk_color_above_ring_eq_brown": {0.0, 1.0}
+	"stalk_color_above_ring_eq_buff": {0.0, 1.0}
+	"stalk_color_above_ring_eq_red": {0.0, 1.0}
+	"stalk_color_above_ring_eq_orange": {0.0, 1.0}
+	"stalk_color_above_ring_eq_cinnamon": {0.0, 1.0}
+	"stalk_color_above_ring_eq_yellow": {0.0, 1.0}
+	"stalk_color_below_ring_eq_white": {0.0, 1.0}
+	"stalk_color_below_ring_eq_pink": {0.0, 1.0}
+	"stalk_color_below_ring_eq_gray": {0.0, 1.0}
+	"stalk_color_below_ring_eq_buff": {0.0, 1.0}
+	"stalk_color_below_ring_eq_brown": {0.0, 1.0}
+	"stalk_color_below_ring_eq_red": {0.0, 1.0}
+	"stalk_color_below_ring_eq_yellow": {0.0, 1.0}
+	"stalk_color_below_ring_eq_orange": {0.0, 1.0}
+	"stalk_color_below_ring_eq_cinnamon": {0.0, 1.0}
+	"veil_color_eq_white": {0.0, 1.0}
+	"veil_color_eq_brown": {0.0, 1.0}
+	"veil_color_eq_orange": {0.0, 1.0}
+	"veil_color_eq_yellow": {0.0, 1.0}
+	"ring_number_eq_1": {0.0, 1.0}
+	"ring_number_eq_2": {0.0, 1.0}
+	"ring_type_eq_pendant": {0.0, 1.0}
+	"ring_type_eq_evanescent": {0.0, 1.0}
+	"ring_type_eq_large": {0.0, 1.0}
+	"ring_type_eq_flaring": {0.0, 1.0}
+	"ring_type_eq_none": {0.0, 1.0}
+	"spore_print_color_eq_black": {0.0, 1.0}
+	"spore_print_color_eq_brown": {0.0, 1.0}
+	"spore_print_color_eq_purple": {0.0, 1.0}
+	"spore_print_color_eq_chocolate": {0.0, 1.0}
+	"spore_print_color_eq_white": {0.0, 1.0}
+	"spore_print_color_eq_green": {0.0, 1.0}
+	"spore_print_color_eq_orange": {0.0, 1.0}
+	"spore_print_color_eq_yellow": {0.0, 1.0}
+	"spore_print_color_eq_buff": {0.0, 1.0}
+	"population_eq_scattered": {0.0, 1.0}
+	"population_eq_numerous": {0.0, 1.0}
+	"population_eq_abundant": {0.0, 1.0}
+	"population_eq_several": {0.0, 1.0}
+	"population_eq_solitary": {0.0, 1.0}
+	"population_eq_clustered": {0.0, 1.0}
+	"habitat_eq_urban": {0.0, 1.0}
+	"habitat_eq_grasses": {0.0, 1.0}
+	"habitat_eq_meadows": {0.0, 1.0}
+	"habitat_eq_woods": {0.0, 1.0}
+	"habitat_eq_paths": {0.0, 1.0}
+	"habitat_eq_waste": {0.0, 1.0}
+	"habitat_eq_leaves": {0.0, 1.0}
+
+model:
++-----------------------------------------+-------------------+-----------+
+| PREDICT O IF SCORE >= 21                |                   |           |
+| ======================================= | ================= | ========= |
+| "cap_shape_eq_convex"                   |          5 points |   + ..... |
+| "gill_color_eq_green"                   |          5 points |   + ..... |
+| "stalk_shape_eq_elarging"               |          5 points |   + ..... |
+| "stalk_root_eq_bulbous"                 |          5 points |   + ..... |
+| "stalk_surface_below_ring_eq_scaly"     |          5 points |   + ..... |
+| "stalk_surface_below_ring_eq_grooves"   |          5 points |   + ..... |
+| "stalk_color_above_ring_eq_white"       |          5 points |   + ..... |
+| "stalk_color_above_ring_eq_pink"        |          5 points |   + ..... |
+| "stalk_color_above_ring_eq_buff"        |          5 points |   + ..... |
+| "stalk_color_above_ring_eq_cinnamon"    |          5 points |   + ..... |
+| "stalk_color_above_ring_eq_yellow"      |          5 points |   + ..... |
+| "stalk_color_below_ring_eq_buff"        |          5 points |   + ..... |
+| "stalk_color_below_ring_eq_yellow"      |          5 points |   + ..... |
+| "stalk_color_below_ring_eq_cinnamon"    |          5 points |   + ..... |
+| "veil_color_eq_white"                   |          5 points |   + ..... |
+| "gill_color_eq_buff"                    |          5 points |   + ..... |
+| "veil_color_eq_yellow"                  |          5 points |   + ..... |
+| "ring_type_eq_pendant"                  |          5 points |   + ..... |
+| "ring_type_eq_evanescent"               |          5 points |   + ..... |
+| "ring_type_eq_large"                    |          5 points |   + ..... |
+| "ring_type_eq_none"                     |          5 points |   + ..... |
+| "spore_print_color_eq_chocolate"        |          5 points |   + ..... |
+| "spore_print_color_eq_green"            |          5 points |   + ..... |
+| "population_eq_scattered"               |          5 points |   + ..... |
+| "population_eq_several"                 |          5 points |   + ..... |
+| "population_eq_solitary"                |          5 points |   + ..... |
+| "population_eq_clustered"               |          5 points |   + ..... |
+| "habitat_eq_urban"                      |          5 points |   + ..... |
+| "habitat_eq_grasses"                    |          5 points |   + ..... |
+| "habitat_eq_woods"                      |          5 points |   + ..... |
+| "habitat_eq_paths"                      |          5 points |   + ..... |
+| "ring_number_eq_1"                      |          5 points |   + ..... |
+| "gill_size_eq_narrow"                   |          5 points |   + ..... |
+| "habitat_eq_leaves"                     |          5 points |   + ..... |
+| "bruises_eq_TRUE"                       |          5 points |   + ..... |
+| "odor_eq_creosote"                      |          5 points |   + ..... |
+| "odor_eq_fishy"                         |          5 points |   + ..... |
+| "odor_eq_pungent"                       |          5 points |   + ..... |
+| "odor_eq_spicy"                         |          5 points |   + ..... |
+| "odor_eq_foul"                          |          5 points |   + ..... |
+| "cap_surface_eq_grooves"                |          5 points |   + ..... |
+| "odor_eq_musty"                         |          5 points |   + ..... |
+| "cap_shape_eq_bell"                     |          5 points |   + ..... |
+| "cap_shape_eq_knobbed"                  |          5 points |   + ..... |
+| "cap_shape_eq_flat"                     |          5 points |   + ..... |
+| "cap_shape_eq_conical"                  |          5 points |   + ..... |
+| "gill_color_eq_gray"                    |          4 points |   + ..... |
+| "gill_color_eq_white"                   |          4 points |   + ..... |
+| "stalk_color_below_ring_eq_white"       |          3 points |   + ..... |
+| "stalk_color_below_ring_eq_pink"        |          3 points |   + ..... |
+| "odor_eq_none"                          |         -1 points |   + ..... |
+| "stalk_surface_below_ring_eq_smooth"    |         -1 points |   + ..... |
+| "habitat_eq_meadows"                    |         -2 points |   + ..... |
+| "cap_surface_eq_smooth"                 |         -3 points |   + ..... |
+| "stalk_root_eq_equal"                   |         -3 points |   + ..... |
+| "cap_surface_eq_scaly"                  |         -3 points |   + ..... |
+| "cap_color_eq_white"                    |         -4 points |   + ..... |
+| "spore_print_color_eq_white"            |         -4 points |   + ..... |
+| "cap_surface_eq_fibrous"                |         -4 points |   + ..... |
+| "cap_color_eq_buff"                     |         -4 points |   + ..... |
+| "cap_color_eq_pink"                     |         -4 points |   + ..... |
+| "gill_spacing_eq_close"                 |         -4 points |   + ..... |
+| "stalk_shape_eq_tapering"               |         -4 points |   + ..... |
+| "spore_print_color_eq_black"            |         -5 points |   + ..... |
+| "spore_print_color_eq_brown"            |         -5 points |   + ..... |
+| "spore_print_color_eq_purple"           |         -5 points |   + ..... |
+| "cap_color_eq_brown"                    |         -5 points |   + ..... |
+| "gill_color_eq_orange"                  |         -5 points |   + ..... |
+| "gill_color_eq_yellow"                  |         -5 points |   + ..... |
+| "spore_print_color_eq_orange"           |         -5 points |   + ..... |
+| "spore_print_color_eq_yellow"           |         -5 points |   + ..... |
+| "spore_print_color_eq_buff"             |         -5 points |   + ..... |
+| "cap_color_eq_yellow"                   |         -5 points |   + ..... |
+| "gill_attachment_eq_free"               |         -5 points |   + ..... |
+| "population_eq_abundant"                |         -5 points |   + ..... |
+| "gill_attachment_eq_attached"           |         -5 points |   + ..... |
+| "gill_color_eq_red"                     |         -5 points |   + ..... |
+| "gill_color_eq_purple"                  |         -5 points |   + ..... |
+| "gill_color_eq_chocolate"               |         -5 points |   + ..... |
+| "gill_color_eq_pink"                    |         -5 points |   + ..... |
+| "gill_color_eq_brown"                   |         -5 points |   + ..... |
+| "cap_shape_eq_sunken"                   |         -5 points |   + ..... |
+| "gill_color_eq_black"                   |         -5 points |   + ..... |
+| "population_eq_numerous"                |         -5 points |   + ..... |
+| "ring_type_eq_flaring"                  |         -5 points |   + ..... |
+| "stalk_color_above_ring_eq_brown"       |         -5 points |   + ..... |
+| "cap_color_eq_gray"                     |         -5 points |   + ..... |
+| "odor_eq_anise"                         |         -5 points |   + ..... |
+| "stalk_color_above_ring_eq_red"         |         -5 points |   + ..... |
+| "stalk_color_above_ring_eq_orange"      |         -5 points |   + ..... |
+| "odor_eq_almond"                        |         -5 points |   + ..... |
+| "stalk_surface_below_ring_eq_fibrous"   |         -5 points |   + ..... |
+| "habitat_eq_waste"                      |         -5 points |   + ..... |
+| "stalk_surface_above_ring_eq_fibrous"   |         -5 points |   + ..... |
+| "stalk_color_below_ring_eq_gray"        |         -5 points |   + ..... |
+| "gill_spacing_eq_crowded"               |         -5 points |   + ..... |
+| "stalk_color_below_ring_eq_brown"       |         -5 points |   + ..... |
+| "stalk_color_below_ring_eq_red"         |         -5 points |   + ..... |
+| "cap_color_eq_green"                    |         -5 points |   + ..... |
+| "stalk_color_below_ring_eq_orange"      |         -5 points |   + ..... |
+| "cap_color_eq_cinnamon"                 |         -5 points |   + ..... |
+| "cap_color_eq_purple"                   |         -5 points |   + ..... |
+| "veil_color_eq_brown"                   |         -5 points |   + ..... |
+| "veil_color_eq_orange"                  |         -5 points |   + ..... |
+| "stalk_surface_above_ring_eq_smooth"    |         -5 points |   + ..... |
+| "stalk_root_eq_rooted"                  |         -5 points |   + ..... |
+| "ring_number_eq_2"                      |         -5 points |   + ..... |
+| "cap_color_eq_red"                      |         -5 points |   + ..... |
+| "stalk_color_above_ring_eq_gray"        |         -5 points |   + ..... |
+| "stalk_surface_above_ring_eq_scaly"     |         -5 points |   + ..... |
+| ======================================= | ================= | ========= |
+| ADD POINTS FROM ROWS 1 to 110           |             SCORE |   = ..... |
++-----------------------------------------+-------------------+-----------+
+
+Training Accuracy: (1.0, 'TP: 3118 TN: 3381 FP: 0 FN: 0')
+
+Testing Accuracy: (1.0, 'TP: 798 TN: 827 FP: 0 FN: 0')

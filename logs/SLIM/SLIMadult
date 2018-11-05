@@ -1,0 +1,82 @@
+Data Set Predicting: "Over50K"
+Using Features:
+	"Age_leq_21": {0.0, 1.0}
+	"Age_22_to_29": {0.0, 1.0}
+	"Age_30_to_44": {0.0, 1.0}
+	"Age_45_to_59": {0.0, 1.0}
+	"Age_geq_60": {0.0, 1.0}
+	"EmployedInPrivateSector": {0.0, 1.0}
+	"EmployedInPublicSector": {0.0, 1.0}
+	"SelfEmployedNotInc": {0.0, 1.0}
+	"SelfEmployedInc": {0.0, 1.0}
+	"HSDiploma": {0.0, 1.0}
+	"ProfVocOrAS": {0.0, 1.0}
+	"Bachelors": {0.0, 1.0}
+	"Graduate": {0.0, 1.0}
+	"NoHS": {0.0, 1.0}
+	"JobManagerial": {0.0, 1.0}
+	"JobAdministrative": {0.0, 1.0}
+	"JobArmedForces": {0.0, 1.0}
+	"JobService": {0.0, 1.0}
+	"JobSkilledSpecialty": {0.0, 1.0}
+	"JobAgriculture": {0.0, 1.0}
+	"Married": {0.0, 1.0}
+	"DivorcedOrSeparated": {0.0, 1.0}
+	"Widowed": {0.0, 1.0}
+	"NeverMarried": {0.0, 1.0}
+	"WorkHrsPerWeek_lt_40": {0.0, 1.0}
+	"WorkHrsPerWeek_40_to_50": {0.0, 1.0}
+	"WorkHrsPerWeek_geq_50": {0.0, 1.0}
+	"Male": {0.0, 1.0}
+	"Female": {0.0, 1.0}
+	"White": {0.0, 1.0}
+	"Black": {0.0, 1.0}
+	"OtherRace": {0.0, 1.0}
+	"NativeUSorCanada": {0.0, 1.0}
+	"NativeImmigrant": {0.0, 1.0}
+	"AnyCapitalGains": {0.0, 1.0}
+	"AnyCapitalLoss": {0.0, 1.0}
+
+model:
++--------------------------------+-------------------+-----------+
+| PREDICT O IF SCORE >= 7        |                   |           |
+| ============================== | ================= | ========= |
+| "Age_leq_21"                   |          5 points |   + ..... |
+| "Age_30_to_44"                 |          5 points |   + ..... |
+| "Age_45_to_59"                 |          5 points |   + ..... |
+| "SelfEmployedInc"              |          5 points |   + ..... |
+| "WorkHrsPerWeek_geq_50"        |          5 points |   + ..... |
+| "WorkHrsPerWeek_40_to_50"      |          5 points |   + ..... |
+| "Married"                      |          5 points |   + ..... |
+| "Age_22_to_29"                 |          3 points |   + ..... |
+| "Age_geq_60"                   |          3 points |   + ..... |
+| "EmployedInPrivateSector"      |          3 points |   + ..... |
+| "EmployedInPublicSector"       |          3 points |   + ..... |
+| "SelfEmployedNotInc"           |          3 points |   + ..... |
+| "WorkHrsPerWeek_lt_40"         |          3 points |   + ..... |
+| "AnyCapitalGains"              |          2 points |   + ..... |
+| "AnyCapitalLoss"               |          2 points |   + ..... |
+| "NeverMarried"                 |          1 points |   + ..... |
+| "Widowed"                      |          1 points |   + ..... |
+| "DivorcedOrSeparated"          |          1 points |   + ..... |
+| "JobAdministrative"            |         -3 points |   + ..... |
+| "JobService"                   |         -3 points |   + ..... |
+| "JobSkilledSpecialty"          |         -3 points |   + ..... |
+| "JobManagerial"                |         -3 points |   + ..... |
+| "NoHS"                         |         -4 points |   + ..... |
+| "HSDiploma"                    |         -4 points |   + ..... |
+| "ProfVocOrAS"                  |         -4 points |   + ..... |
+| "JobAgriculture"               |         -5 points |   + ..... |
+| "JobArmedForces"               |         -5 points |   + ..... |
+| "Male"                         |         -5 points |   + ..... |
+| "Female"                       |         -5 points |   + ..... |
+| "White"                        |         -5 points |   + ..... |
+| "Black"                        |         -5 points |   + ..... |
+| "OtherRace"                    |         -5 points |   + ..... |
+| ============================== | ================= | ========= |
+| ADD POINTS FROM ROWS 1 to 32   |             SCORE |   = ..... |
++--------------------------------+-------------------+-----------+
+
+Training Accuracy: (0.828585687960688, 'TP: 3247 TN: 18336 FP: 1440 FN: 3025')
+
+Testing Accuracy: 0.8223552894211577a confusion of: TP: 779 TN: 4577 FP: 367 FN: 790

@@ -1,0 +1,281 @@
+Data Set Predicting: binary_outcome
+Using Features:
+	temp: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0}
+	time: {4.0, 5.0, 6.0, 7.0, 8.0, 10.0, 14.0}
+	slowCool: {0.0, 1.0, -1.0}
+	pH: {8.0, 4.0, 5.0, 6.0, 7.0}
+	leak: {0.0, 1.0, -1.0}
+	numberI0rg: {1.0, 2.0, 3.0}
+	numberOrg: {0.0, 1.0, 2.0}
+	numberOxlike: {0.0, 1.0}
+	numberComponents: {2.0, 3.0, 4.0}
+	orgavgpolMax: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgrefractivityMax: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0, 12.0}
+	orgmaximalprojectionareaMax: {1.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orgmaximalprojectionradiusMax: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgmaximalprojectionsizeMax: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, -5.0, -3.0}
+	orgminimalprojectionareaMax: {0.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0, 13.0}
+	orgminimalprojectionradiusMax: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 12.0, -4.0, -2.0}
+	orgminimalprojectionsizeMax: {0.0, 1.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgavgpol_pHdependentMax: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0}
+	orgmolpolMax: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orgvanderwaalsMax: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orgASAMax: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orgASA+Max: {0.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orgASA-Max: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgASA_HMax: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0, 11.0}
+	orgASA_PMax: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0}
+	orgpolarsurfaceareaMax: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orghbdamsaccMax: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orghbdamsdonMax: {3.0, 4.0, 5.0, 6.0, 7.0, 9.0}
+	orgavgpolMin: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orgrefractivityMin: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgmaximalprojectionareaMin: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgmaximalprojectionradiusMin: {0.0, 1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgmaximalprojectionsizeMin: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, -5.0, -3.0}
+	orgminimalprojectionareaMin: {0.0, 1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0, 13.0}
+	orgminimalprojectionradiusMin: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 12.0, -4.0, -2.0}
+	orgminimalprojectionsizeMin: {1.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgavgpol_pHdependentMin: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orgmolpolMin: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orgvanderwaalsMin: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgASAMin: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgASA+Min: {0.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orgASA-Min: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0}
+	orgASA_HMin: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0, 11.0}
+	orgASA_PMin: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0}
+	orgpolarsurfaceareaMin: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orghbdamsaccMin: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orghbdamsdonMin: {3.0, 4.0, 5.0, 6.0, 7.0, 9.0}
+	orgavgpolArithAvg: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgrefractivityArithAvg: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0, 12.0}
+	orgmaximalprojectionareaArithAvg: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orgmaximalprojectionradiusArithAvg: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgmaximalprojectionsizeArithAvg: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, -5.0, -3.0}
+	orgminimalprojectionareaArithAvg: {0.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0, 13.0}
+	orgminimalprojectionradiusArithAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 12.0, -4.0, -2.0}
+	orgminimalprojectionsizeArithAvg: {0.0, 1.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgavgpol_pHdependentArithAvg: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0}
+	orgmolpolArithAvg: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orgvanderwaalsArithAvg: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgASAArithAvg: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgASA+ArithAvg: {0.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orgASA-ArithAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orgASA_HArithAvg: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0, 11.0}
+	orgASA_PArithAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0}
+	orgpolarsurfaceareaArithAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orghbdamsaccArithAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orghbdamsdonArithAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 9.0}
+	orgavgpolGeomAvg: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgrefractivityGeomAvg: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0, 12.0}
+	orgmaximalprojectionareaGeomAvg: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orgmaximalprojectionradiusGeomAvg: {0.0, 1.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgmaximalprojectionsizeGeomAvg: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, -5.0, -3.0}
+	orgminimalprojectionareaGeomAvg: {0.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0, 13.0}
+	orgminimalprojectionradiusGeomAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 12.0, -4.0, -2.0}
+	orgminimalprojectionsizeGeomAvg: {0.0, 1.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orgavgpol_pHdependentGeomAvg: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0}
+	orgmolpolGeomAvg: {1.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orgvanderwaalsGeomAvg: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgASAGeomAvg: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0}
+	orgASA+GeomAvg: {0.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orgASA-GeomAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	orgASA_HGeomAvg: {2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0, 11.0}
+	orgASA_PGeomAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0}
+	orgpolarsurfaceareaGeomAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	orghbdamsaccGeomAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0}
+	orghbdamsdonGeomAvg: {3.0, 4.0, 5.0, 6.0, 7.0, 9.0}
+	oxlikeavgpolMax: {5.46, -1.0}
+	oxlikerefractivityMax: {36.11, -1.0}
+	oxlikemaximalprojectionareaMax: {0.0, -1.0}
+	oxlikemaximalprojectionradiusMax: {0.0, -1.0}
+	oxlikemaximalprojectionsizeMax: {0.0, -1.0}
+	oxlikeminimalprojectionareaMax: {0.0, -1.0}
+	oxlikeminimalprojectionradiusMax: {0.0, -1.0}
+	oxlikeminimalprojectionsizeMax: {0.0, -1.0}
+	oxlikeavgpol_pHdependentMax: {5.46, 5.84, -1.0, 6.23}
+	oxlikemolpolMax: {5.87, 5.63, 5.75, -1.0}
+	oxlikevanderwaalsMax: {227.57, 220.06, -1.0, 211.65}
+	oxlikeASAMax: {227.57, 220.06, -1.0, 211.65}
+	oxlikeASA+Max: {41.26, 61.3, -1.0, 17.64}
+	oxlikeASA-Max: {209.93, 178.8, 150.36, -1.0}
+	oxlikeASA_HMax: {0.0, 17.64, -1.0}
+	oxlikeASA_PMax: {209.93, 211.65, 220.06, -1.0}
+	oxlikepolarsurfaceareaMax: {80.26, 74.6, 77.43, -1.0}
+	oxlikehbdamsaccMax: {8.3, 9.05, 8.82, 9.99, 8.04, -1.0}
+	oxlikehbdamsdonMax: {0.95, 1.7, 1.96, 1.18, 0.01, -1.0}
+	oxlikeavgpolMin: {5.46, -1.0}
+	oxlikerefractivityMin: {36.11, -1.0}
+	oxlikemaximalprojectionareaMin: {0.0, -1.0}
+	oxlikemaximalprojectionradiusMin: {0.0, -1.0}
+	oxlikemaximalprojectionsizeMin: {0.0, -1.0}
+	oxlikeminimalprojectionareaMin: {0.0, -1.0}
+	oxlikeminimalprojectionradiusMin: {0.0, -1.0}
+	oxlikeminimalprojectionsizeMin: {0.0, -1.0}
+	oxlikeavgpol_pHdependentMin: {5.46, 5.84, -1.0, 6.23}
+	oxlikemolpolMin: {5.87, 5.63, 5.75, -1.0}
+	oxlikevanderwaalsMin: {227.57, 220.06, -1.0, 211.65}
+	oxlikeASAMin: {227.57, 220.06, -1.0, 211.65}
+	oxlikeASA+Min: {41.26, 61.3, -1.0, 17.64}
+	oxlikeASA-Min: {209.93, 178.8, 150.36, -1.0}
+	oxlikeASA_HMin: {0.0, 17.64, -1.0}
+	oxlikeASA_PMin: {209.93, 211.65, 220.06, -1.0}
+	oxlikepolarsurfaceareaMin: {80.26, 74.6, 77.43, -1.0}
+	oxlikehbdamsaccMin: {8.3, 9.05, 8.82, 9.99, 8.04, -1.0}
+	oxlikehbdamsdonMin: {0.95, 1.7, 1.96, 1.18, 0.01, -1.0}
+	oxlikeavgpolArithAvg: {5.46, -1.0}
+	oxlikerefractivityArithAvg: {36.11, -1.0}
+	oxlikemaximalprojectionareaArithAvg: {0.0, -1.0}
+	oxlikemaximalprojectionradiusArithAvg: {0.0, -1.0}
+	oxlikemaximalprojectionsizeArithAvg: {0.0, -1.0}
+	oxlikeminimalprojectionareaArithAvg: {0.0, -1.0}
+	oxlikeminimalprojectionradiusArithAvg: {0.0, -1.0}
+	oxlikeminimalprojectionsizeArithAvg: {0.0, -1.0}
+	oxlikeavgpol_pHdependentArithAvg: {5.46, 5.84, -1.0, 6.23}
+	oxlikemolpolArithAvg: {5.87, 5.63, 5.75, -1.0}
+	oxlikevanderwaalsArithAvg: {227.57, 220.06, -1.0, 211.65}
+	oxlikeASAArithAvg: {227.57, 220.06, -1.0, 211.65}
+	oxlikeASA+ArithAvg: {41.26, 61.3, -1.0, 17.64}
+	oxlikeASA-ArithAvg: {209.93, 178.8, 150.36, -1.0}
+	oxlikeASA_HArithAvg: {0.0, 17.64, -1.0}
+	oxlikeASA_PArithAvg: {209.93, 211.65, 220.06, -1.0}
+	oxlikepolarsurfaceareaArithAvg: {80.26, 74.6, 77.43, -1.0}
+	oxlikehbdamsaccArithAvg: {8.3, 9.05, 8.82, 9.99, 8.04, -1.0}
+	oxlikehbdamsdonArithAvg: {0.95, 1.7, 1.96, 1.18, 0.01, -1.0}
+	oxlikeavgpolGeomAvg: {5.46, -1.0}
+	oxlikerefractivityGeomAvg: {36.11, -1.0}
+	oxlikemaximalprojectionareaGeomAvg: {0.0, -1.0}
+	oxlikemaximalprojectionradiusGeomAvg: {0.0, -1.0}
+	oxlikemaximalprojectionsizeGeomAvg: {0.0, -1.0}
+	oxlikeminimalprojectionareaGeomAvg: {0.0, -1.0}
+	oxlikeminimalprojectionradiusGeomAvg: {0.0, -1.0}
+	oxlikeminimalprojectionsizeGeomAvg: {0.0, -1.0}
+	oxlikeavgpol_pHdependentGeomAvg: {5.46, 5.84, -1.0, 6.23}
+	oxlikemolpolGeomAvg: {5.87, 5.63, 5.75, -1.0}
+	oxlikevanderwaalsGeomAvg: {227.57, 220.06, -1.0, 211.65}
+	oxlikeASAGeomAvg: {227.57, 220.06, -1.0, 211.65}
+	oxlikeASA+GeomAvg: {41.26, 61.3, -1.0, 17.64}
+	oxlikeASA-GeomAvg: {209.93, 178.8, 150.36, -1.0}
+	oxlikeASA_HGeomAvg: {0.0, 17.64, -1.0}
+	oxlikeASA_PGeomAvg: {209.93, 211.65, 220.06, -1.0}
+	oxlikepolarsurfaceareaGeomAvg: {80.26, 74.6, 77.43, -1.0}
+	oxlikehbdamsaccGeomAvg: {8.3, 9.05, 8.82, 9.99, 8.04, -1.0}
+	oxlikehbdamsdonGeomAvg: {0.95, 1.7, 1.96, 1.18, 0.01, -1.0}
+	i0rg-water-moleratio: {8.0, 67.0, 5.0, 6.0}
+	org-water-moleratio: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 40.0, 10.0, 11.0, 14.0, 27.0}
+	orgacc-waterdonratio: {0.0, 1.0, 2.0, 3.0, 4.0, 5.0, -20.0, -5.0, -2.0}
+	orgdon-wateraccratio: {0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, -29.0, 7.0, -2.0, -8.0, -3.0, -1.0}
+	i0rg-org-moleratio: {34.0, 35.0, 5.0, 6.0, 7.0, 30.0}
+	0twater-water-moleratio: {64.0, 4.0, 5.0, 6.0, 7.0, 8.0, 13.0}
+	Na: {0.0, 1.0}
+	Li: {0.0}
+	Te: {0.0, 1.0}
+	Br: {0.0, 1.0}
+	K: {0.0, 1.0}
+	C: {1.0}
+	F: {0.0, 1.0}
+	I: {0.0, 1.0}
+	Mo: {0.0, 1.0}
+	O: {1.0}
+	N: {0.0, 1.0}
+	P: {0.0, 1.0}
+	S: {0.0, 1.0}
+	V: {0.0, 1.0}
+	Se: {0.0, 1.0}
+	Zn: {0.0, 1.0}
+	Co: {0.0, 1.0}
+	Cl: {0.0, 1.0}
+	Ga: {0.0, 1.0}
+	Cs: {0.0}
+	Cr: {0.0, 1.0}
+	Cu: {0.0}
+	Actinide: {0.0}
+	AlkaliMetal: {0.0}
+	Lanthanide: {0.0}
+	P1: {0.0}
+	P2: {0.0}
+	P3: {0.0}
+	P4: {0.0, 1.0}
+	P5: {0.0, 1.0}
+	P6: {0.0}
+	P7: {0.0}
+	G1: {0.0}
+	G2: {0.0}
+	G3: {0.0}
+	G4: {0.0}
+	G5: {0.0, 1.0}
+	G6: {0.0, 1.0}
+	G7: {0.0}
+	G8: {0.0}
+	G9: {0.0, 1.0}
+	G10: {0.0}
+	G11: {0.0}
+	G12: {0.0, 1.0}
+	G13: {0.0, 1.0}
+	G14: {0.0}
+	G15: {0.0}
+	G16: {0.0, 1.0}
+	G17: {0.0}
+	G18: {0.0}
+	V0: {0.0}
+	V1: {0.0}
+	V2: {0.0, 1.0}
+	V3: {0.0, 1.0}
+	V4: {0.0, 1.0}
+	V5: {0.0, 1.0}
+	V6: {0.0, 1.0}
+	V7: {0.0}
+	IonizationMax: {578.8, 869.3, 650.9, 906.4, 684.3, 941.0, 652.9, 760.4}
+	EAMax: {0.0, 64.3, 195.0, 71.9, 50.6, 28.9, 190.2, 63.7}
+	PaulingElectronegMax: {1.63, 2.1, 2.16, 1.81, 1.65, 1.88, 2.55, 1.66}
+	PearsonElectronegMax: {453.2, 358.6, 303.9, 529.8, 568.0, 378.1, 412.0, 350.7}
+	hardnessMax: {453.2, 300.1, 306.2, 275.0, 339.6, 373.0, 348.4}
+	AtomicRadiusMax: {103.0, 136.0, 171.0, 142.0, 152.0, 190.0}
+	IonizationMin: {578.8, 650.9, 906.4, 684.3, 941.0, 760.4}
+	EAMin: {0.0, 195.0, 71.9, 50.6, 28.9, 63.7}
+	PaulingElectronegMin: {1.63, 2.55, 1.81, 2.16, 1.88, 1.65}
+	PearsonElectronegMin: {453.2, 303.9, 568.0, 378.1, 412.0, 350.7}
+	hardnessMin: {453.2, 294.3, 300.1, 306.2, 275.0, 373.0, 348.4}
+	AtomicRadiusMin: {166.0, 103.0, 136.0, 171.0, 142.0, 152.0, 123.0, 190.0}
+	IonizationMean: {2.0, 3.0, 4.0, 5.0, 6.0, 8.0}
+	EAMean: {2.0, 3.0, 4.0, 5.0, 6.0, 8.0}
+	PaulingElectronegMean: {8.0, 3.0, 4.0, 5.0, 6.0}
+	PearsonElectronegMean: {2.0, 3.0, 4.0, 5.0, 6.0, 8.0}
+	hardnessMean: {3.0, 4.0, 5.0, 6.0, 7.0, 11.0}
+	AtomicRadiusMean: {3.0, 4.0, 5.0, 6.0, 7.0}
+	IonizationGeom: {2.0, 3.0, 4.0, 5.0, 6.0, 8.0, 9.0}
+	EAGeom: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 10.0}
+	PaulingElectronegGeom: {9.0, 3.0, 4.0, 5.0, 6.0}
+	PearsonElectronegGeom: {2.0, 3.0, 4.0, 5.0, 6.0, 9.0}
+	hardnessGeom: {3.0, 4.0, 5.0, 6.0, 7.0, 11.0}
+	AtomicRadiusGeom: {3.0, 4.0, 5.0, 6.0, 7.0}
+	IonizationMaxWeighted: {2.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0, 15.0}
+	EAMaxWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 15.0}
+	PaulingElectronegMaxWeighted: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 14.0}
+	PearsonElectronegMaxWeighted: {3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 15.0}
+	hardnessMaxWeighted: {2.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 13.0, 15.0}
+	AtomicRadiusMaxWeighted: {1.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 14.0, 18.0}
+	IonizationMinWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 16.0, 19.0, 24.0, -2.0}
+	EAMinWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 17.0, 18.0, -13.0, 24.0, 26.0}
+	PaulingElectronegMinWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 16.0, 20.0, -4.0}
+	PearsonElectronegMinWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 16.0, 18.0, 23.0, -3.0}
+	hardnessMinWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 14.0, 17.0, 19.0, 25.0, -1.0}
+	AtomicRadiusMinWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 19.0, -1.0}
+	IonizationMeanWeighted: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 12.0, 13.0, 14.0, 16.0}
+	EAMeanWeighted: {1.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 16.0}
+	PaulingElectronegMeanWeighted: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 13.0}
+	PearsonElectronegMeanWeighted: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 11.0, 12.0, 14.0, 15.0}
+	hardnessMeanWeighted: {0.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 13.0, 15.0, 19.0}
+	AtomicRadiusMeanWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 18.0, -1.0}
+	IonizationGeomWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 15.0, 18.0, 22.0}
+	EAGeomWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 12.0, 14.0, 19.0, 21.0}
+	PaulingElectronegGeomWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 15.0, 18.0}
+	PearsonElectronegGeomWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 15.0, 17.0, 21.0}
+	hardnessGeomWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 16.0, 18.0, 24.0}
+	AtomicRadiusGeomWeighted: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 19.0}
+
+model: [['orgvanderwaalsMin_5.0', 'leak_0.0', 'temp_5.0_neg'], ['IonizationGeom_3.0_neg', 'time_5.0', 'orgminimalprojectionradiusGeomAvg_5.0_neg'], ['hardnessMean_6.0', 'leak_1.0_neg', 'orgmaximalprojectionsizeArithAvg_5.0'], ['AtomicRadiusGeom_4.0', 'leak_1.0_neg', 'oxlikemolpolMax_5.87_neg'], ['time_4.0_neg', 'orgavgpolArithAvg_6.0_neg', 'orgASA-Max_7.0_neg'], ['hardnessGeomWeighted_4.0_neg', 'AtomicRadiusGeom_6.0_neg', 'temp_7.0'], ['PaulingElectronegMean_3.0_neg', 'orgavgpol_pHdependentArithAvg_6.0_neg', 'time_4.0_neg']]
+
+Training Accuracy: (0.7695954487989887, 'TP: 1942 TN: 493 FP: 443 FN: 286')
+
+Testing Accuracy: (0.7420986093552465, 'TP: 471 TN: 116 FP: 121 FN: 83')

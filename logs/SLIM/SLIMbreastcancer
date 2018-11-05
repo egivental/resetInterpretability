@@ -1,0 +1,30 @@
+Data Set Predicting: "Benign"
+Using Features:
+	"ClumpThickness": {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	"UniformityOfCellSize": {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	"UniformityOfCellShape": {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	"MarginalAdhesion": {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	"SingleEpithelialCellSize": {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	"BareNuclei": {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	"BlandChromatin": {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	"NormalNucleoli": {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	"Mitoses": {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0}
+
+model:
++-------------------------------+-------------------+-----------+
+| PREDICT O IF SCORE >= 77      |                   |           |
+| ============================= | ================= | ========= |
+| "UniformityOfCellSize"        |          5 points |   + ..... |
+| "UniformityOfCellShape"       |          5 points |   + ..... |
+| "SingleEpithelialCellSize"    |          5 points |   + ..... |
+| "BareNuclei"                  |          5 points |   + ..... |
+| "ClumpThickness"              |          3 points |   + ..... |
+| "NormalNucleoli"              |          1 points |   + ..... |
+| "Mitoses"                     |         -1 points |   + ..... |
+| ============================= | ================= | ========= |
+| ADD POINTS FROM ROWS 1 to 7   |             SCORE |   = ..... |
++-------------------------------+-------------------+-----------+
+
+Training Accuracy: (0.9835164835164835, 'TP: 190 TN: 347 FP: 8 FN: 1')
+
+Testing Accuracy: (0.9562043795620438, 'TP: 46 TN: 85 FP: 4 FN: 2')

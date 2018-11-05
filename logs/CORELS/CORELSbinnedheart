@@ -1,0 +1,44 @@
+Data Set Predicting: "Disease"
+Using Features:
+	FastingBloodSugar_ge_120: {0.0, 1.0}
+	ExerciseAngina: {0.0, 1.0}
+	ExerciseSTDepression: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0}
+	NumVesselsByFlourosopy: {0.0, 1.0, 2.0, 3.0}
+	Male: {0.0, 1.0}
+	Female: {0.0, 1.0}
+	ChestPain_eq_typicalangina: {0.0, 1.0}
+	ChestPain_eq_asymptomatic: {0.0, 1.0}
+	ChestPain_eq_nonanginal: {0.0, 1.0}
+	ChestPain_eq_atypicalangina: {0.0, 1.0}
+	ExerciseSTPeakSlope_eq_Down: {0.0, 1.0}
+	ExerciseSTPeakSlope_eq_Flat: {0.0, 1.0}
+	ExerciseSTPeakSlope_eq_Up: {0.0, 1.0}
+	Thal_eq_FixedDefect: {0.0, 1.0}
+	Thal_eq_Normal: {0.0, 1.0}
+	Thal_eq_ReversableDefect: {0.0, 1.0}
+	RestECG_eq_likely_v_hypertrophy: {0.0, 1.0}
+	RestECG_eq_normal: {0.0, 1.0}
+	RestECG_eq_st_abnormality: {0.0, 1.0}
+	Cholesterol_lt_200: {0.0, 1.0}
+	Cholesterol_200_to_240: {0.0, 1.0}
+	Cholesterol_gt_240: {0.0, 1.0}
+	RestBP_Normal: {0.0, 1.0}
+	RestBP_PreHypertension: {0.0, 1.0}
+	RestBP_Hypertension_Stage_1: {0.0, 1.0}
+	RestBP_Hypertension_Stage_2: {0.0, 1.0}
+	RestBP_HypertensiveCrisis: {0.0, 1.0}
+	MaxExerciseHRTargetRatio: {4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	Age_lt_30: {0.0, 1.0}
+	Age_geq_30: {0.0, 1.0}
+	Age_geq_45: {0.0, 1.0}
+	Age_geq_60: {0.0, 1.0}
+
+model:
+if ({"ExerciseSTDepression":7.0,"Age_lt_30":0.0}) then ({"Disease":1.0})
+else if ({"ChestPain_eq_typicalangina":0.0,"Thal_eq_Normal":0.0}) then ({"Disease":1.0})
+else ({"Disease":0.0})
+
+
+Training Accuracy: (0.6157024793388429, 'TP: 19 TN: 130 FP: 0 FN: 93')
+
+Testing Accuracy: (0.5737704918032787, 'TP: 3 TN: 32 FP: 2 FN: 24')

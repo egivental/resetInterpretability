@@ -1,0 +1,21 @@
+Data Set Predicting: "Benign"
+Using Features:
+	ClumpThickness: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	UniformityOfCellSize: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	UniformityOfCellShape: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	MarginalAdhesion: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	SingleEpithelialCellSize: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	BareNuclei: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	BlandChromatin: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	NormalNucleoli: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0}
+	Mitoses: {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 10.0}
+
+model:
+if ({"NormalNucleoli":10.0}) then ({"Benign":1.0})
+else if ({"BareNuclei":1.0}) then ({"Benign":0.0})
+else ({"Benign":1.0})
+
+
+Training Accuracy: (0.9029304029304029, 'TP: 184 TN: 309 FP: 46 FN: 7')
+
+Testing Accuracy: (0.8978102189781022, 'TP: 45 TN: 78 FP: 11 FN: 3')
