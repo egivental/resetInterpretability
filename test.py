@@ -1,4 +1,3 @@
-from model.Model import Model
 from model.SLIM.SLIMCode import SLIM
 from model.baseline.DecisionTree import DecisionTree
 from model.CORELS.CORELS import CORELS
@@ -37,18 +36,23 @@ random.seed(RANDOMSEED)
 
 data = 'data/' + dataset + '_processed.csv'
 my_data = np.genfromtxt(data, delimiter = ",", dtype = str)
-X,Y = my_data[1:,1:].astype(float), my_data[1:,0].astype(float)
-xlabels = my_data[0,1:]
-ylabel = [my_data[0,0]]
+X,Y = my_data[1:,1:-1].astype(float), my_data[1:,-1].astype(float)
+xlabels = my_data[0,1:-1]
+ylabel = [my_data[0,-1]]
 train_ind = list(set(random.sample(range(len(X)), int (.8 * len(X)), )))
+
+mean_std_dic = {}
 
 if 'bin' in sys.argv:
 	for i in range(X.shape[1]):
 		if len(set(X[: , i])) > 10:
 			std = np.std(X[: , i])
 			mean = np.mean(X[: , i])
+			mean_std_dic[xlabels[i]] = (mean, std)
 			for j,entry in enumerate(X[: , i]):
-				X[j,i] = round((entry - mean)/std) + 5
+				X[j,i] = round((entry - mean)/std) + 10
+		else:
+			mean_std_dic[xlables[i]] = (None, None)
 
 
 X_train = X[train_ind,:]
@@ -66,11 +70,11 @@ if Decisiontree:
 
 if slim:
 	sl = SLIM()
-	sl.fit(X_train,Y_train, xlabels, ylabel, dataset = dataset)
+	sl.fit(X_train,Y_train, xlabels, ylabel, dataset = dataset, dct = mean_std_dic)
 	result = sl.predict(X_test)
 	acc,conf = sl.findAccuracy(result, Y_test)
 	print(sl.get_name() + " got an accuracy of: " + str(acc) +  'and a confusion of: ' + conf )
-	subprocess.call('subl ' + os.getcwd() + '/logs/SLIM/SLIM' + dataset, shell = True)
+	#subprocess.call('subl ' + os.getcwd() + '/logs/SLIM/SLIM' + dataset, shell = True)
 
 if corels:
 	cr = CORELS()
@@ -79,7 +83,7 @@ if corels:
 	o = cr.predict(X_test, xlabels)
 	acc,conf = cr.findAccuracy(o, Y_test)
 	print(cr.get_name() + " got an accuracy of: " + str(acc) + 'and a confusion of: ' + conf)
-	subprocess.call('subl ' + os.getcwd() + '/logs/CORELS/CORELS' + dataset, shell = True)
+	#subprocess.call('subl ' + os.getcwd() + '/logs/CORELS/CORELS' + dataset, shell = True)
 
 if bayesian:
 	boa = BayesianOrOf()
@@ -87,7 +91,7 @@ if bayesian:
 	result = boa.predict(X_test,xlabels)
 	acc,conf = boa.findAccuracy(result, Y_test)
 	print(boa.get_name() + " got an accuracy: " + str(acc) + 'and a confusion of: ' + conf)
-	subprocess.call('subl ' + os.getcwd() + '/logs/BOA/BOA' + dataset, shell = True)
+	#subprocess.call('subl ' + os.getcwd() + '/logs/BOA/BOA' + dataset, shell = True)
 
 
 

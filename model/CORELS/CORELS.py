@@ -142,7 +142,7 @@ class CORELS():
         #print(wd)
         return ruleList  #print out the rules
 
-    #this accepts a matrix 
+    #inputs: Accepts an X matrix, along with an optional set of x labels, which should be a matrix
     def predict(self, X, xlabels = ''):
         
         ### checking xlabels ###

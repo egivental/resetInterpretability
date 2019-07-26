@@ -15,7 +15,10 @@ class SLIM():
         os.chdir(cwd)
 
 
-    def fit(self, X, Y, xlabels, ylabel, dataset = None):
+    def fit(self, X, Y, xlabels, ylabel, dataset = None, bin = False):
+        mean_std_dic = {}
+        if (bin):
+            mean_std_dic = bin(X)
         Y = Y.reshape(Y.size,1)
         labels = np.concatenate([ylabel, xlabels])
         labels = labels.reshape(1, labels.shape[0])
@@ -32,8 +35,15 @@ class SLIM():
         os.chdir(self.logs)  #change directory to Logging Directory
         f = open(self.logFile, 'w+')  #open the file
         f.write('Data Set Predicting: ' + ylabel[0] + '\nUsing Features:\n')  #write in the prediction and the features used
-        for i,feature in enumerate(xlabels):
-            f.write('\t'+ feature + ': ' + str(set(X[:,i])) + '\n')  
+        if dct:
+            for i,key in enumerate(dct):
+                if key != None:
+                    f.write('\t'+ key + ': ' + str(set(X[:,i])) + ("0 corresponds to " + str(dct[key][0]) + "Each shift is a standard deviation of: " + str(dct[key][1])) + "\n")
+                else:
+                    f.write('\t'+ key + ': ' + str(set(X[:,i])) + '\n') 
+        else:
+            for i,feature in enumerate(xlabels):
+                f.write('\t'+ feature + ': ' + str(set(X[:,i])) + '\n')
         f.write('\nmodel:\n' + self.stringModel + '\n\n') #write out the model
         f.write('Training Accuracy: ' + str(self.findAccuracy(self.predict(X), Y, log = False)) + '\n\n')  #State the training accuracy
         f.close()
@@ -50,6 +60,19 @@ class SLIM():
                 outcome = 0
             outcomes[x] = outcome
         return outcomes
+
+    def bin(X)    
+        mean_std_dic = {}
+        for i in range(X.shape[1]):
+        if len(set(X[: , i])) > 10:
+            std = np.std(X[: , i])
+            mean = np.mean(X[: , i])
+            mean_std_dic[xlabels[i]] = (mean, std)
+            for j,entry in enumerate(X[: , i]):
+                X[j,i] = round((entry - mean)/std) + 10
+        else:
+            mean_std_dic[xlables[i]] = (None, None)
+        return mean_std_dic
 
     def findAccuracy(self, predictions, Y, log = True):
         assert(len(predictions) == len(Y)), 'Y and predictions must have the same length'

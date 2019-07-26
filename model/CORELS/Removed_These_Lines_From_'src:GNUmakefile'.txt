@@ -1,3 +1,0 @@
-    ifneq ($(shell uname -r),15.6.0)
-        LIBS += -lprofiler -ltcmalloc
-    endif

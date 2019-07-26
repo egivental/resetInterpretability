@@ -75,9 +75,9 @@ class BayesianOrOf():
         return self.rules 
 
     def predict(self, X, xlabels):
-        a = predict(self.rules, boaDataMake(X, None, xlabels, None))
+        toRet = predict(self.rules, boaDataMake(X, None, xlabels, None))
         subprocess.call('rm -R temp', shell = True)
-        return a
+        return toRet
     
     def findAccuracy(self, predictions, Y, log = True):
         assert(len(predictions) == len(Y)), 'Y and predictions must have the same length'

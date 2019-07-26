@@ -1,0 +1,155 @@
+Data Set Predicting: disparate_impact
+Using Features:
+	population numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.059826702346469605Each shift is a standard deviation of: 0.12342086651604936
+	householdsize numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.47177847184336086Each shift is a standard deviation of: 0.1667573726977459
+	racepctblack numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.18213201669421475Each shift is a standard deviation of: 0.24217551628419723
+	racePctWhite numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.7535143725515154Each shift is a standard deviation of: 0.23375764420395576
+	racePctAsian numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.15585931045295606Each shift is a standard deviation of: 0.20739112209112384
+	racePctHisp numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.15046737406638522Each shift is a standard deviation of: 0.22956652985672377
+	agePct12t21 numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.43048868964319864Each shift is a standard deviation of: 0.15774746106721527
+	agePct12t29 numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.5004300848134715Each shift is a standard deviation of: 0.14568188914214186
+	agePct16t24 numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.3359456781776613Each shift is a standard deviation of: 0.16491845285189524
+	agePct65up numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.4031918489288273Each shift is a standard deviation of: 0.17844031015010667
+	numbUrban numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.06497941061445706Each shift is a standard deviation of: 0.12392781217810434
+	pctUrban numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.7054126099394864Each shift is a standard deviation of: 0.4393744249296887
+	medIncome numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.3621284951794032Each shift is a standard deviation of: 0.20305668484845335
+	pctWWage numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.5765997489097725Each shift is a standard deviation of: 0.18510546351695972
+	pctWFarmSelf numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.29543172415620583Each shift is a standard deviation of: 0.20657694538101898
+	pctWInvInc numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.494936351193535Each shift is a standard deviation of: 0.17212780711085587
+	pctWSocSec numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.455127423433505Each shift is a standard deviation of: 0.17821991811952617
+	pctWPubAsst numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.292818826512638Each shift is a standard deviation of: 0.20442411099691143
+	pctWRetire numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.48527119933689467Each shift is a standard deviation of: 0.17493504726357928
+	medFamInc numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.37915794885906345Each shift is a standard deviation of: 0.19125025165046858
+	perCapInc numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.35652258712315776Each shift is a standard deviation of: 0.17843160432701188
+	whitePerCap numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.37005565921739947Each shift is a standard deviation of: 0.17542137990673015
+	blackPerCap numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.2907981117839174Each shift is a standard deviation of: 0.15875007583149553
+	indianPerCap numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.20667241597750327Each shift is a standard deviation of: 0.16397325232362317
+	AsianPerCap numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.31071026368230975Each shift is a standard deviation of: 0.18375802574558392
+	HispPerCap numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.38582285073431627Each shift is a standard deviation of: 0.16817467492106114
+	NumUnderPov numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.0537711758769004Each shift is a standard deviation of: 0.11557434511073666
+	PctPopUnderPov numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.29259439231314827Each shift is a standard deviation of: 0.21444596743865244
+	PctLess9thGrade numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.30758751826924174Each shift is a standard deviation of: 0.2019239916550781
+	PctNotHSGrad numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.37246988964886385Each shift is a standard deviation of: 0.19222335055746217
+	PctBSorMore numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.36439891209074265Each shift is a standard deviation of: 0.19471975362706814
+	PctUnemployed numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.3621805177109446Each shift is a standard deviation of: 0.19457849056637452
+	PctEmploy numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.5194613443284315Each shift is a standard deviation of: 0.17483031453749573
+	PctEmplManu numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.3886494721931843Each shift is a standard deviation of: 0.18858689478432925
+	PctEmplProfServ numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.44190960294395626Each shift is a standard deviation of: 0.16596360875744204
+	PctOccupManu numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.38187672018509283Each shift is a standard deviation of: 0.18454686703328005
+	PctOccupMgmtProf numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.439910688891063Each shift is a standard deviation of: 0.1721860876895611
+	MalePctDivorce numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.45255781551458796Each shift is a standard deviation of: 0.17102846698763188
+	MalePctNevMarr numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.4287192570664454Each shift is a standard deviation of: 0.1769817422044068
+	FemalePctDiv numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.48105901024763587Each shift is a standard deviation of: 0.17486815790103769
+	TotalPctDiv numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.4857671030561346Each shift is a standard deviation of: 0.17885134468158767
+	PersPerFam numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.4919598637501932Each shift is a standard deviation of: 0.16214589284190017
+	PctFam2Par numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.6196230622210088Each shift is a standard deviation of: 0.20076897781425748
+	PctKids2Par numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.6236821086061752Each shift is a standard deviation of: 0.20389315160989457
+	PctYoungKids2Par numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.6761708900870379Each shift is a standard deviation of: 0.21358151045804946
+	PctTeen2Par numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.5846261899880177Each shift is a standard deviation of: 0.19145032978413282
+	PctWorkMomYoungKids numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.5096952615509109Each shift is a standard deviation of: 0.16269818355508497
+	PctWorkMom numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.5373728042420833Each shift is a standard deviation of: 0.17326158522376486
+	NumIlleg numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.03390513990777582Each shift is a standard deviation of: 0.09811284357077836
+	PctIlleg numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.23934293532891066Each shift is a standard deviation of: 0.2270275131172353
+	NumImmig numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.030789483258770553Each shift is a standard deviation of: 0.0857803723075907
+	PctImmigRecent numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.2980428849600257Each shift is a standard deviation of: 0.213093732711714
+	PctImmigRec5 numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.34406259834698333Each shift is a standard deviation of: 0.19615150596221825
+	PctImmigRec8 numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.38934141898388697Each shift is a standard deviation of: 0.198218603457767
+	PctImmigRec10 numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.4160774819557928Each shift is a standard deviation of: 0.19002443706459743
+	PctRecentImmig numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.17367415061584876Each shift is a standard deviation of: 0.2300962443131146
+	PctRecImmig5 numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.17131102801582396Each shift is a standard deviation of: 0.2394850172287253
+	PctRecImmig8 numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.1770987287936592Each shift is a standard deviation of: 0.2413788533117452
+	PctRecImmig10 numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.1780572014573966Each shift is a standard deviation of: 0.24270843277848272
+	PctSpeakEnglOnly numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.7964499143242596Each shift is a standard deviation of: 0.2266960375084328
+	PctNotSpeakEnglWell numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.1529171044371433Each shift is a standard deviation of: 0.22193103610865877
+	PctLargHouseFam numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.2621958502291205Each shift is a standard deviation of: 0.20037380561721452
+	PctLargHouseOccup numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.25267404241364727Each shift is a standard deviation of: 0.19053617978855775
+	PersPerOccupHous numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.4737329417402152Each shift is a standard deviation of: 0.17592819064178458
+	PersPerOwnOccHous numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.5027250513344121Each shift is a standard deviation of: 0.16394558010835333
+	PersPerRentOccHous numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.4108247589193625Each shift is a standard deviation of: 0.19157857558965227
+	PctPersOwnOccup numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.5687292581409487Each shift is a standard deviation of: 0.2074275690672497
+	PctPersDenseHous numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.18823002058685517Each shift is a standard deviation of: 0.20050845807943454
+	PctHousLess3BR numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.4825171845584702Each shift is a standard deviation of: 0.1793652594479956
+	MedNumBR numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.3125538882355889Each shift is a standard deviation of: 0.2593803234870552
+	HousVacant numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.0789242992731529Each shift is a standard deviation of: 0.15621521042207823
+	PctHousOccup numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.7175742075700591Each shift is a standard deviation of: 0.19259606809565716
+	PctHousOwnOcc numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.5497490783008004Each shift is a standard deviation of: 0.19297503122175097
+	PctVacantBoarded numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.2123804552645056Each shift is a standard deviation of: 0.2235910522554776
+	PctVacMore6Mos numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.43394926717493315Each shift is a standard deviation of: 0.19114493588405343
+	MedYrHousBuilt numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.5166417425000484Each shift is a standard deviation of: 0.2303598759785319
+	PctHousNoPhone numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.2623084550720686Each shift is a standard deviation of: 0.23401509489711175
+	PctWOFullPlumb numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.2337467458234144Each shift is a standard deviation of: 0.19963290921686339
+	OwnOccLowQuart numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.2640088309975492Each shift is a standard deviation of: 0.21426043750410848
+	OwnOccMedVal numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.26611732659466025Each shift is a standard deviation of: 0.23289392744583234
+	OwnOccHiQuart numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.28077580057051Each shift is a standard deviation of: 0.23035168084162386
+	RentLowQ numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.34570015050645125Each shift is a standard deviation of: 0.2162550830330121
+	RentMedian numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.37682670344121566Each shift is a standard deviation of: 0.2071451306727404
+	RentHighQ numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.4208175673815649Each shift is a standard deviation of: 0.2430417024274223
+	MedRent numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.3896291707943171Each shift is a standard deviation of: 0.20479376780184086
+	MedRentPctHousInc numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.48637155468065285Each shift is a standard deviation of: 0.17189116639425414
+	MedOwnCostPctInc numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.45830782057974595Each shift is a standard deviation of: 0.1882568098599277
+	MedOwnCostPctIncNoMtg numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.38897058628852454Each shift is a standard deviation of: 0.1945519016618776
+	NumInShelters numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.029694167569699687Each shift is a standard deviation of: 0.10972756891672149
+	NumStreet numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.02921825166988789Each shift is a standard deviation of: 0.11991372367778845
+	PctForeignBorn numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.2071294007256225Each shift is a standard deviation of: 0.23262013836226256
+	PctBornSameState numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.6068192728061252Each shift is a standard deviation of: 0.2023344000193309
+	PctSameHouse85 numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.5352671520231372Each shift is a standard deviation of: 0.18254037456559158
+	PctSameCity85 numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.6124889860299808Each shift is a standard deviation of: 0.2012404398997215
+	PctSameState85 numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.637062947664925Each shift is a standard deviation of: 0.21489729577635075
+	LandArea numeric: {6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0}0 corresponds to 0.0709780967851297Each shift is a standard deviation of: 0.12201922177294516
+	PopDens numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.2335476692500416Each shift is a standard deviation of: 0.2093528583722783
+	PctUsePubTrans numeric: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.14659108453281777Each shift is a standard deviation of: 0.21911877600082932
+	LemasPctOfficDrugUn numeric: {5.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 0.09023391826815337Each shift is a standard deviation of: 0.2360782033105545
+	LARGLY_BLACK_COMMUNITY: {7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0}0 corresponds to 5.7096065971843e-05Each shift is a standard deviation of: 0.009920021929672165
+
+model:
++---------------------------------+-------------------+-----------+
+| PREDICT O IF SCORE >= 60        |                   |           |
+| =============================== | ================= | ========= |
+| PctRecImmig10 numeric           |          4 points |   + ..... |
+| RentLowQ numeric                |          3 points |   + ..... |
+| FemalePctDiv numeric            |          3 points |   + ..... |
+| RentHighQ numeric               |          2 points |   + ..... |
+| OwnOccLowQuart numeric          |          2 points |   + ..... |
+| PctWorkMom numeric              |          2 points |   + ..... |
+| PctKids2Par numeric             |          2 points |   + ..... |
+| medIncome numeric               |          2 points |   + ..... |
+| numbUrban numeric               |          2 points |   + ..... |
+| agePct16t24 numeric             |          2 points |   + ..... |
+| PctHousOwnOcc numeric           |          2 points |   + ..... |
+| PctHousOccup numeric            |          1 points |   + ..... |
+| whitePerCap numeric             |          1 points |   + ..... |
+| PctPopUnderPov numeric          |          1 points |   + ..... |
+| MedOwnCostPctIncNoMtg numeric   |          1 points |   + ..... |
+| PersPerOwnOccHous numeric       |          1 points |   + ..... |
+| PctEmplManu numeric             |          1 points |   + ..... |
+| PctNotSpeakEnglWell numeric     |          1 points |   + ..... |
+| MalePctDivorce numeric          |          1 points |   + ..... |
+| agePct12t29 numeric             |          1 points |   + ..... |
+| pctWWage numeric                |          1 points |   + ..... |
+| PctLess9thGrade numeric         |          1 points |   + ..... |
+| PctFam2Par numeric              |         -1 points |   + ..... |
+| PersPerOccupHous numeric        |         -1 points |   + ..... |
+| PctRecImmig8 numeric            |         -1 points |   + ..... |
+| MalePctNevMarr numeric          |         -1 points |   + ..... |
+| PctIlleg numeric                |         -1 points |   + ..... |
+| PctWorkMomYoungKids numeric     |         -1 points |   + ..... |
+| PctOccupMgmtProf numeric        |         -1 points |   + ..... |
+| PctOccupManu numeric            |         -1 points |   + ..... |
+| PctNotHSGrad numeric            |         -1 points |   + ..... |
+| MedRentPctHousInc numeric       |         -1 points |   + ..... |
+| householdsize numeric           |         -1 points |   + ..... |
+| PctRecentImmig numeric          |         -1 points |   + ..... |
+| OwnOccHiQuart numeric           |         -1 points |   + ..... |
+| PctForeignBorn numeric          |         -2 points |   + ..... |
+| PctEmploy numeric               |         -2 points |   + ..... |
+| medFamInc numeric               |         -2 points |   + ..... |
+| population numeric              |         -3 points |   + ..... |
+| MedRent numeric                 |         -4 points |   + ..... |
+| TotalPctDiv numeric             |         -4 points |   + ..... |
+| =============================== | ================= | ========= |
+| ADD POINTS FROM ROWS 1 to 41    |             SCORE |   = ..... |
++---------------------------------+-------------------+-----------+
+
+Training Accuracy: (0.9135, 'TP: 2998 TN: 656 FP: 197 FN: 149')
+
+Testing Accuracy: (0.914, 'TP: 753 TN: 161 FP: 46 FN: 40')
