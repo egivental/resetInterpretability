@@ -1,0 +1,32 @@
+Data Set Predicting: "Age_geq_60"
+Using Features:
+	"RoundShape": {0.0, 1.0}
+	"OvalShape": {0.0, 1.0}
+	"LobularShape": {0.0, 1.0}
+	"IrregularShape": {0.0, 1.0}
+	"CircumscribedMargin": {0.0, 1.0}
+	"MicrolobulatedMargin": {0.0, 1.0}
+	"ObscuredMargin": {0.0, 1.0}
+	"IllDefinedMargin": {0.0, 1.0}
+	"SpiculatedMargin": {0.0, 1.0}
+	"Density": {1.0, 2.0, 3.0, 4.0}
+	"Age_lt_30": {0.0, 1.0}
+	"Age_geq_30": {0.0, 1.0}
+	"Age_geq_45": {0.0, 1.0}
+
+model:
++-------------------------------+-------------------+-----------+
+| PREDICT O IF SCORE >= 3       |                   |           |
+| ============================= | ================= | ========= |
+| "Age_geq_45"                  |          4 points |   + ..... |
+| "ObscuredMargin"              |          2 points |   + ..... |
+| "IllDefinedMargin"            |          2 points |   + ..... |
+| "RoundShape"                  |         -2 points |   + ..... |
+| "OvalShape"                   |         -2 points |   + ..... |
+| ============================= | ================= | ========= |
+| ADD POINTS FROM ROWS 1 to 5   |             SCORE |   = ..... |
++-------------------------------+-------------------+-----------+
+
+Training Accuracy: (0.7213541666666666, 'TP: 259 TN: 295 FP: 154 FN: 60')
+
+Testing Accuracy: (0.6580310880829016, 'TP: 52 TN: 75 FP: 44 FN: 22')

@@ -8,24 +8,32 @@ class SLIM():
     def __init__(self, time_limit = 300, dataset = None, logging = True, verbose = False, epsilon = .001, logs= '/logs/SLIM', C0 = .001, bound = 5):
         self.name = "Rudin-SLIM"
         cwd = os.getcwd()
-        if not os.path.isdir('logs'):
-            os.mkdir('logs')
-        os.chdir(cwd + '/logs/')
-        if not os.path.isdir('SLIM'):
-            os.mkdir('SLIM')
-        os.chdir(cwd)
-        self.time_limit = time_limit
-        if dataset == None:
+        if dataset == None: #if no dataset name, set to current time, otherwise keep
             self.dataset = datetime.datetime.now()
         else:
             self.dataset = dataset
-        if logging:
-            self.logs = os.getcwd() + logs
+        
+
+        if logging:  #if logging save and makethe logs folder
+            # If a logs was specified, make sure directory exists
+            if logs != None:      
+                if not os.path.isdir(cwd + logs):
+                    print("The folder for logs does not exist. Now exiting")
+                    exit(0)
+                self.logs = cwd + logs
+            #if it was not specified, make a folder called SLIMLogs
+            else:
+                if not os.path.isdir("SLIMLogs"):
+                    os.mkdir("SLIMLogs")
+                self.logs = "SLIMLogs"
             self.logFile = self.logs + self.dataset
+        
         self.logging = logging
         self.verbose = False
         self.C0 = C0
         self.bound = bound
+        self.epsilon = epsilon
+        self.time_limit = time_limit
 
 
     def fit(self, X, Y, xlabels, ylabel, bin = False):
