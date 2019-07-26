@@ -2,11 +2,9 @@ import sys
 import os
 import numpy as np
 import pandas as pd
-sys.path.append("/opt/ibm/ILOG/CPLEX_Studio128/cplex/python/3.5/x86-64_linux/")
-
 import cplex as cp
-import model.SLIM.slim as slim
 import subprocess
+from .slim import SLIMCoefficientConstraints, create_slim_IP, get_slim_summary, check_data, check_slim_IP_output
 
 #### LOAD DATA ####
 # requirements for CSV data file
@@ -15,7 +13,7 @@ import subprocess
 # - first row contains names for the outcome variable + input variables
 # - no empty cells
 
-def main(data) :
+def main(data, timelimit, bound, c0, epsilon) :
     #data_dir = os.getcwd() + '/slim-python-master/data/'
     #data_csv_file = data_dir + data_name + '_processed.csv'
 
@@ -44,11 +42,11 @@ def main(data) :
     X_names.insert(0, '(Intercept)')
 
     # run sanity checks
-    slim.check_data(X = X, Y = Y, X_names = X_names)
+    check_data(X = X, Y = Y, X_names = X_names)
 
     #### TRAIN SCORING SYSTEM USING SLIM ####
     # setup SLIM coefficient set
-    coef_constraints = slim.SLIMCoefficientConstraints(variable_names = X_names, ub = 5, lb = -5)
+    coef_constraints = SLIMCoefficientConstraints(variable_names = X_names, ub = bound, lb = -bound)
     coef_constraints.view()
 
     #choose upper and lower bounds for the intercept coefficient
@@ -84,7 +82,7 @@ def main(data) :
         'X': X,
         'X_names': X_names,
         'Y': Y,
-        'C_0': 0.00000000000000001,
+        'C_0': c0,
         'w_pos': 1.0,
         'w_neg': 1.0,
         'L0_min': 0,
@@ -98,11 +96,11 @@ def main(data) :
         'coef_constraints': coef_constraints
     }
 
-    slim_IP, slim_info = slim.create_slim_IP(slim_input)
+    slim_IP, slim_info = create_slim_IP(slim_input, epsilon)
 
     # setup SLIM IP parameters
     # see docs/usrccplex.pdf for more about these parameters
-    slim_IP.parameters.timelimit.set(2500.0) #set runtime here
+    slim_IP.parameters.timelimit.set(timelimit) #set runtime here
     #TODO: add these default settings to create_slim_IP
     slim_IP.parameters.randomseed.set(0)
     slim_IP.parameters.threads.set(1)
@@ -118,10 +116,10 @@ def main(data) :
     slim_IP.solve()
 
     # run quick and dirty tests to make sure that IP output is correct
-    slim.check_slim_IP_output(slim_IP, slim_info, X, Y, coef_constraints)
+    check_slim_IP_output(slim_IP, slim_info, X, Y, coef_constraints)
 
     #### CHECK RESULTS ####
-    slim_results = slim.get_slim_summary(slim_IP, slim_info, X, Y)
+    slim_results = get_slim_summary(slim_IP, slim_info, X, Y)
     #print(slim_results)
 
     # print model

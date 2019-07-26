@@ -71,7 +71,7 @@ class CORELS():
     ###and a log file path 
     ### Inputs: X (2D matrix),Y (Vector) OPTIONAL INPUTS: xlabels (list), ylabel(list), ruleListLength (1 or 2), logfile (str)
     def fit(self, X, Y, xlabels = 'not_defined', ylabel = ['Y'], ruleListLength = 2, dataset = None): 
-        
+
         ### fixing data for parsing ###
         self.lengthList = ruleListLength
         if type(ylabel) is str:

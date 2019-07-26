@@ -1,2 +1,0 @@
-from .SLIMCode import SLIM
-
